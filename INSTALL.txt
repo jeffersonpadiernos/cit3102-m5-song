@@ -1,0 +1,9 @@
+1. laravel new cit3102-m5-song   (choose SQLite)
+2. cd cit3102-m5-song && php artisan install:api
+3. php artisan make:model Song -m ; php artisan make:controller SongController --api
+4. Delete the generated *_create_songs_table.php migration (keep mine).
+5. Unzip this over the project root, overwriting files.
+6. In app/Models/User.php: add `use Laravel\Sanctum\HasApiTokens;` and put HasApiTokens in the class `use` line.
+7. php artisan migrate
+8. Do NOT include `Authorization` header on register/login in Bruno. Use Bearer token for the rest.
+Note: if bootstrap/app.php differs from your Laravel version, only copy the shouldRenderJsonWhen block.
