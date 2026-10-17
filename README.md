@@ -1,7 +1,7 @@
 # Song API
 
-**Partners:** <Padiernos, Jefferson>, <Sepnio, Marc Iris>
-**Section:** <your section>
+**Partners:** Padiernos, Jefferson, Sepnio, Marc Iris
+**Section:** IT2E
 **Resource:** Song (title, artist, genre, duration_seconds, release_year)
 
 ## Setup
